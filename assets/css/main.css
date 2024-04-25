@@ -203,6 +203,18 @@ body {
 		center;
 }
 
+/* my */
+body.interiors {
+	background-color: #afdb36;
+	background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/ibg.jpg");
+	background-size: auto,
+		cover;
+	background-attachment: fixed,
+		fixed;
+	background-position: center,
+		center;
+}
+
 body.is-preload *,
 body.is-preload *:before,
 body.is-preload *:after {
@@ -3614,6 +3626,8 @@ body.is-menu-visible #menu .inner {
 		margin-bottom: -6.5em;
 	}
 
+
+
 }
 
 @media screen and (max-width: 980px) {
@@ -3726,7 +3740,20 @@ body.is-preload #banner p {
 		margin-bottom: -6.5em;
 	}
 
+	/*my*/
+	#wrapper.interiors>header {
+		padding: 9em 0 6.25em 0;
+		background-color: #2e3141;
+		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/ibg.jpg");
+		background-size: auto,
+			cover;
+		background-position: center,
+			0% 30%;
+		margin-bottom: -6.5em;
+	}
+
 }
+
 
 @media screen and (max-width: 980px) {
 
@@ -4163,7 +4190,7 @@ body.is-preload #banner p {
 /* Footer */
 
 #footer .inner {
-	padding: 5em 0 3em 0;
+	/* padding: 5em 0 3em 0; */
 	display: -moz-flex;
 	display: -webkit-flex;
 	display: -ms-flex;
@@ -4196,8 +4223,8 @@ body.is-preload #banner p {
 #footer .inner .copyright {
 	border-top: solid 2px rgba(255, 255, 255, 0.125);
 	list-style: none;
-	margin: 4em 0 2em 0;
-	padding: 2em 0 0 0;
+	/* margin: 4em 0 2em 0;
+	padding: 2em 0 0 0; */
 	width: 100%;
 }
 
@@ -4226,7 +4253,19 @@ body.is-preload #banner p {
 
 	#footer {
 		background-color: #2e3141;
-		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg_footer.jpg");
+		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+		background-size: auto,
+			cover;
+		background-position: center,
+			center;
+		margin-top: -6.5em;
+		padding-top: 6.5em;
+	}
+
+	/*my*/
+	#footer.interiors {
+		background-color: #2e3141;
+		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/ibg.jpg");
 		background-size: auto,
 			cover;
 		background-position: center,
@@ -4261,7 +4300,7 @@ body.is-preload #banner p {
 	}
 
 	#footer .inner .copyright {
-		margin: 4em 0 2em 0;
+		/* margin: 4em 0 2em 0; */
 	}
 
 }
