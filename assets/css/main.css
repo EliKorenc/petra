@@ -344,7 +344,7 @@ a.special:not(.button):before {
 	font-variant: normal;
 	text-rendering: auto;
 	line-height: 1;
-	text-transform: none !important;
+	/* text-transform: none !important; */
 	font-family: 'Font Awesome 5 Free';
 	font-weight: 900;
 }
@@ -399,8 +399,9 @@ h5,
 h6 {
 	color: #ffffff;
 	font-family: 'DM Serif Text', Helvetica;
-	font-size: 4em;
+	font-size: 3em;
 	/* font-weight: 700; */
+	font-weight: normal;
 	letter-spacing: 0.1em;
 	margin: 0 0 1em 0;
 }
@@ -2433,7 +2434,7 @@ input[type="radio"]+label {
 	display: inline-block;
 	font-size: 1em;
 	font-family: "Source Sans Pro", Helvetica, sans-serif;
-	text-transform: none;
+	/* text-transform: none; */
 	letter-spacing: 0;
 	/* font-weight: 300; */
 	padding-left: 2.4em;
@@ -2450,7 +2451,7 @@ input[type="radio"]+label:before {
 	font-variant: normal;
 	text-rendering: auto;
 	line-height: 1;
-	text-transform: none !important;
+	/* text-transform: none !important; */
 	font-family: 'Font Awesome 5 Free';
 	/* font-weight: 900; */
 }
@@ -2550,7 +2551,7 @@ input[type="radio"]+label:before {
 	font-variant: normal;
 	text-rendering: auto;
 	line-height: 1;
-	text-transform: none !important;
+	/* text-transform: none !important; */
 	font-family: 'Font Awesome 5 Free';
 	/* font-weight: 400; */
 }
@@ -2564,7 +2565,7 @@ input[type="radio"]+label:before {
 }
 
 .icon.solid:before {
-	/* font-weight: 900; */
+	font-weight: 900;
 }
 
 .icon.brands:before {
@@ -2843,7 +2844,7 @@ ul.contact li:before {
 	font-variant: normal;
 	text-rendering: auto;
 	line-height: 1;
-	text-transform: none !important;
+	/* text-transform: none !important; */
 	font-family: 'Font Awesome 5 Free';
 	/* font-weight: 400; */
 }
@@ -3271,13 +3272,13 @@ button:disabled,
 #header nav {
 	font-family: 'Lora', Helvetica;
 	font-size: 0.8em;
-	/* font-weight: 700; */
+	font-weight: 700;
 	height: 3em;
 	letter-spacing: 0.1em;
 	line-height: 3em;
 	position: absolute;
 	right: 0.7em;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 	top: 0.7em;
 }
 
@@ -3311,9 +3312,9 @@ button:disabled,
 	font-variant: normal;
 	text-rendering: auto;
 	line-height: 1;
-	text-transform: none !important;
+	/* text-transform: none !important; */
 	font-family: 'Font Awesome 5 Free';
-	/* font-weight: 900; */
+	font-weight: 900;
 }
 
 #header nav a[href="#menu"]:before {
@@ -3596,7 +3597,8 @@ body.is-menu-visible #menu .inner {
 	filter: blur(0);
 	opacity: 1;
 	border-bottom: solid 2px rgba(255, 255, 255, 0.125);
-	font-size: 4em;
+	font-size: 3.5em;
+	font-weight: normal;
 	margin-bottom: 0.8em;
 	padding-bottom: 0.4em;
 }
