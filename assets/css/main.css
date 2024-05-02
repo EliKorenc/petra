@@ -247,7 +247,7 @@ body,
 input,
 select,
 textarea {
-	color: #ffffff;
+	color: #EEEDFF;
 	font-family: "Source Sans Pro", Helvetica, sans-serif;
 	font-size: 16.5pt;
 	/* font-weight: 300; */
@@ -315,13 +315,13 @@ a {
 	-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 	transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 	border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
-	color: #ffffff;
+	color: #EEEDFF;
 	text-decoration: none;
 }
 
 a:hover {
 	border-bottom-color: transparent;
-	color: #ffffff !important;
+	color: #EEEDFF !important;
 }
 
 a.special:not(.button) {
@@ -376,11 +376,11 @@ a.special:not(.button):active:before {
 	background-color: rgba(255, 255, 255, 0.075);
 }
 
-strong,
+/* strong,
 b {
-	color: #ffffff;
-	/* font-weight: 600; */
-}
+	color: #EEEDFF;
+font-weight: 600;
+} */
 
 em,
 i {
@@ -397,7 +397,7 @@ h3,
 h4,
 h5,
 h6 {
-	color: #ffffff;
+	color: #EEEDFF;
 	font-family: 'DM Serif Text', Helvetica;
 	font-size: 3em;
 	/* font-weight: 700; */
@@ -2328,7 +2328,7 @@ form>.fields>.field.quarter {
 }
 
 label {
-	color: #ffffff;
+	color: #EEEDFF;
 	display: block;
 	font-family: 'Lora', Helvetica;
 	font-size: 0.8em;
@@ -2389,7 +2389,7 @@ select {
 }
 
 select option {
-	color: #ffffff;
+	color: #EEEDFF;
 	background: #2e3141;
 }
 
@@ -2429,7 +2429,7 @@ input[type="radio"] {
 input[type="checkbox"]+label,
 input[type="radio"]+label {
 	text-decoration: none;
-	color: #ffffff;
+	color: #EEEDFF;
 	cursor: pointer;
 	display: inline-block;
 	font-size: 1em;
@@ -2475,8 +2475,8 @@ input[type="radio"]+label:before {
 
 input[type="checkbox"]:checked+label:before,
 input[type="radio"]:checked+label:before {
-	background: #ffffff;
-	border-color: #ffffff;
+	background: #EEEDFF;
+	border-color: #EEEDFF;
 	content: '\f00c';
 	color: #2e3141;
 }
@@ -2972,7 +2972,7 @@ table td {
 }
 
 table th {
-	color: #ffffff;
+	color: #EEEDFF;
 	font-size: 0.9em;
 	/* font-weight: 600; */
 	padding: 0 0.75em 0.75em 0.75em;
@@ -3032,7 +3032,7 @@ button,
 	border-radius: 5px;
 	border: 0;
 	box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.125);
-	color: #ffffff !important;
+	color: #EEEDFF !important;
 	cursor: pointer;
 	display: inline-block;
 	font-family: 'Lora', Helvetica;
