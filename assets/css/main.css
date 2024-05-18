@@ -240,6 +240,10 @@ body.smrtadivka {
 		center;
 }
 
+#text {
+	text-align: justify;
+}
+
 body.is-preload *,
 body.is-preload *:before,
 body.is-preload *:after {
